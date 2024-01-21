@@ -1,0 +1,51 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.book-flight, .flight-deals {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #ffd700;
+    border: none;
+    cursor: pointer;
+}
+
+.hero {
+    background-image: url('path-to-your-image.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.intro {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Add responsive design styles, animations, and other styles as needed */
